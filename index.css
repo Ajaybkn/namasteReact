@@ -1,0 +1,75 @@
+.header{
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+}
+.logo{
+    height: 100px;
+}
+.nav-items>ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 22px;
+}
+.nav-items>ul>li{
+    padding: 10px;
+    margin: 10px;;
+}
+
+.search{
+    padding: 10px;
+    
+}
+.res-card{
+    background-color: lightgrey;
+    height: 31rem;
+    padding: 10px;
+    margin: 10px 5px;
+    width: 17rem;
+}
+.res-logo{
+    width: 100%;
+}
+.res-card:hover {
+    outline: 2px solid black;
+    cursor: pointer;
+  }
+  
+.res-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.filter{
+    display: flex;
+    height: 32px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.filter-btn{
+    margin-left: 30px;
+    
+}
+.login-btn{
+    font-weight: bold;
+    font-size: 18px;
+    color: indianred;
+    background-color: lightgreen;
+    position: relative;
+    top: -26px;
+    height: 32px;
+    width: 100px;
+    cursor: pointer;
+}
+.searchBox{
+    margin-bottom: 25px;
+    height: 20px;
+}
+.searchBtn{
+    margin-left: 5px;
+    height: 32px;
+    cursor: pointer;
+}
